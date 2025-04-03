@@ -1,0 +1,34 @@
+<apex:page standardController="vlocity_cmt__Subscription__c" 
+           extensions="InwiB2C_Document_Cameleons" 
+           tabStyle="vlocity_cmt__Subscription__c" 
+           lightningStylesheets="true">
+    
+    <apex:form >
+        <div style="height:auto">
+            <apex:pageBlock mode="edit">
+                <apex:pageBlockSection title="Vos données personnelles :" columns="2">
+                    <apex:outputField label="Nom et prénom du client :" 
+                                      value="{!vlocity_cmt__Subscription__c.vlocity_cmt__AccountId__r.vlocity_cmt__PersonContactId__r.Name}" />
+                    <apex:outputText label="Date d’activation de votre forfait mobile :" value="{!TEXT(DATEVALUE(vlocity_cmt__Subscription__c.InwiB2C_Date_d_activation__c))}" />
+                </apex:pageBlockSection>
+
+                <apex:pageBlockSection title="Présentation de votre forfait :" columns="2">
+                    <apex:pageBlockSectionItem>
+    <apex:outputLabel value="Nom du forfait :" />
+    <apex:outputText value="{!vlocity_cmt__Subscription__c.Inwib2c_Offre__c} {!vlocity_cmt__Subscription__c.InwiB2C_FMS__c}" />
+</apex:pageBlockSectionItem>
+<apex:outputField label="Détail de votre forfait :" value="{!vlocity_cmt__Subscription__c.Inwib2c_Offre__c}" />
+                </apex:pageBlockSection>
+
+                <apex:pageBlockSection title="Informations utiles :" columns="2">
+                    <apex:outputText label="Frais de mise en service payés :" value="{!vlocity_cmt__Subscription__c.InwiB2C_FMS__c}DH" />
+                    <apex:outputField label="Date de démarrage de votre forfait  :" value="{!vlocity_cmt__Subscription__c.InwiB2C_FMS__c}" />
+                    
+                    <!-- Affichage de la date limite de paiement -->
+                    <apex:outputText label="Date limite de paiement de votre forfait :" value="{!formattedDueDate}" />
+
+             </apex:pageBlockSection>
+            </apex:pageBlock>
+        </div>
+    </apex:form>
+</apex:page>

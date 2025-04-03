@@ -1,0 +1,9 @@
+Name: 109
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - IntegrationProcedure/inwib2c_InwiB2C_OrderPaymentInfo
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+SalesforceTypesToFetch:

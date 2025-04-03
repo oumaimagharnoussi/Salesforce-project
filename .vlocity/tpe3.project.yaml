@@ -1,0 +1,9 @@
+Name: tpe3
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - IntegrationProcedure/Inwi_inwiB2C_CreatePaymentRemboursement
+    - DataRaptor/InwiB2C_DREGetOrderInfoPayX
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+SalesforceTypesToFetch:

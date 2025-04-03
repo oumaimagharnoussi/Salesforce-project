@@ -1,0 +1,10 @@
+Name: lod
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/InwiB2C_CSCreatePaymentPayXIterationFNR
+    - IntegrationProcedure/Inwi_inwiB2C_CreatePaymentFraisTPEFMS_FMD_FNRSavTermIdarVacay
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+SalesforceTypesToFetch:

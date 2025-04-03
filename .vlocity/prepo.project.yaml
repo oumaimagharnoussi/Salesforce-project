@@ -1,0 +1,9 @@
+Name: prepo
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - OmniScript/inwib2c_MigrationPrePost_French
+    - IntegrationProcedure/Inwi_inwiB2C_Create_payement
+VlocityTypesToFetch:
+    - IntegrationProcedure
+    - OmniScript
+SalesforceTypesToFetch:

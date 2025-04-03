@@ -1,0 +1,7 @@
+Name: drtpe
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/InwiB2C_DREGetOrderInfoPayX
+VlocityTypesToFetch:
+    - DataRaptor
+SalesforceTypesToFetch:

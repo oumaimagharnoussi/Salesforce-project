@@ -1,0 +1,7 @@
+Name: viptt
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - IntegrationProcedure/Inwi_inwiB2C_CreatePaymentRemboursement
+VlocityTypesToFetch:
+    - IntegrationProcedure
+SalesforceTypesToFetch:

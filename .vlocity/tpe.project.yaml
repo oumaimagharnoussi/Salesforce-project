@@ -1,0 +1,27 @@
+Name: tpe
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - DataRaptor/InwiB2C_CSCreatePaymentPayXIteration
+    - DataRaptor/InwiB2C_DRPostOrderItemPaymentInfo
+    - DataRaptor/InwiB2C_DRPostOrderItemPaymentInfoSAVTERMIdarVacay
+    - DataRaptor/InwiB2C_DRTMergePAYXRequestFreeAmount
+    - DataRaptor/InwiB2C_DRTMergePAYXRequestInvoices
+    - DataRaptor/InwiB2C_GetRequestPayXForERecharge
+    - DataRaptor/inwiB2C_updateOrderStatus
+    - IntegrationProcedure/Inwi_inwiB2C_CreatePaymentFraisTPEFMS_FMD_FNRSavTermIdarVacay
+    - IntegrationProcedure/Inwi_inwiB2C_CreatePaymentRemboursement
+    - IntegrationProcedure/inwib2c_CreatePayementForERecharge
+    - IntegrationProcedure/inwib2c_inwiB2C_Create_payement_FreeAmount
+    - IntegrationProcedure/inwib2c_inwiB2C_Create_Payment_Invoices
+    - IntegrationProcedure/inwib2c_InwiB2C_CreateMigrationFeesPayment
+    - OmniScript/inwib2c_Changement_Forfait_Cameleon_English
+    - OmniScript/inwib2c_E_Recharge_French
+    - OmniScript/inwib2c_InwiB2C_Paiement_Facture_French
+    - OmniScript/inwib2c_ModificationTerminal_French
+    - OmniScript/inwib2c_ReturnManagement_English
+    - IntegrationProcedure/inwib2c_inwiBC_Create_Payment_Action
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+SalesforceTypesToFetch:

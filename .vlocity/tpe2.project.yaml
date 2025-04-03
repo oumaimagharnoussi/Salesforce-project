@@ -1,0 +1,7 @@
+Name: tpe2
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - OmniScript/inwib2c_inwiB2C_ModificationSIM_French
+VlocityTypesToFetch:
+    - OmniScript
+SalesforceTypesToFetch:

@@ -1,0 +1,10 @@
+Name: ll
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - OmniScript/inwib2c_inwiB2C_ModificationSIM_French
+    - IntegrationProcedure/inwib2c_InwiB2C_OrderPaymentInfo
+VlocityTypesToFetch:
+    - DataRaptor
+    - IntegrationProcedure
+    - OmniScript
+SalesforceTypesToFetch:

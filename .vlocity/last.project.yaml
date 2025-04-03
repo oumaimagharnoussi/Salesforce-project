@@ -1,0 +1,13 @@
+Name: last
+ignoreDependencies: false
+VlocityDataPackKeys:
+    - OmniScript/inwib2c_Acquisition_French
+    - OmniScript/inwib2c_ChangementForfaitPostpayed_French
+    - OmniScript/inwib2c_MigrationIdarADSL_French
+    - OmniScript/inwib2c_MigrationIdarFTTH_French
+    - OmniScript/inwib2c_MigrationIntertechnologieTelevente_English
+    - OmniScript/inwib2c_MigrationTeleventeIdarADSL_English
+    - OmniScript/inwib2c_MigrationPrePost_French
+VlocityTypesToFetch:
+    - OmniScript
+SalesforceTypesToFetch:
